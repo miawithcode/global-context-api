@@ -15,3 +15,7 @@
       );
     };
     ```
+4. 在 `context.jsx` 中设置 Custom Hooks 来使用 `GlobalContext`
+    ```jsx
+    export const useGlobaleContext = () => useContext(GlobalContext);
+    ```
